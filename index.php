@@ -11,7 +11,7 @@
 </head>
 <body>
 
-    <form action="script.php" method="get">
+    <form action="server.php" method="get">
 
         <input type="text" name="paragraph" id="" placeholder="Insert paragraph">
         <input type="text" name="blasphemy" placeholder="Insert blasphemy">
