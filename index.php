@@ -1,3 +1,4 @@
+<!-- qua scriverò un paragrafo e una parola proibita che manderò a -->
 <?php
 
 ?>
@@ -9,6 +10,13 @@
     <title>Document</title>
 </head>
 <body>
-    <div><?php echo 'Hello word'?></div>
+
+    <form action="script.php" method="get">
+
+        <input type="text" name="paragraph" id="" placeholder="Insert paragraph">
+        <input type="text" name="blasphemy" placeholder="Insert blasphemy">
+        <button type="submit">Send</button>
+    </form>
+
 </body>
 </html>
