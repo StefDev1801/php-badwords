@@ -9,6 +9,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div>Hello php</div>
+    <div><?php echo 'Hello word'?></div>
 </body>
 </html>
